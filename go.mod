@@ -2,9 +2,12 @@ module github.com/rancher/norman
 
 go 1.25.0
 
-replace github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20251229090358-2a0ac2717b07
+toolchain go1.25.4
 
-replace github.com/rancher/lasso => github.com/iYashMaurya/lasso v0.0.0-20251229045230-e8b5b0ffb53d
+replace (
+	github.com/rancher/lasso => github.com/iYashMaurya/lasso v0.0.0-20251229045230-e8b5b0ffb53d
+	github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20251229090358-2a0ac2717b07
+)
 
 require (
 	github.com/ghodss/yaml v1.0.0
