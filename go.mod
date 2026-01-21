@@ -5,8 +5,8 @@ go 1.25.0
 toolchain go1.25.4
 
 replace (
-	github.com/rancher/lasso => github.com/iYashMaurya/lasso v0.0.0-20251229045230-e8b5b0ffb53d
-	github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20260111155633-72014ddd7f4b
+	github.com/rancher/lasso => github.com/iYashMaurya/lasso v0.0.0-20260121070645-a654dcfcf6d3
+	github.com/rancher/wrangler/v3 => github.com/iYashMaurya/wrangler/v3 v3.0.0-20260121071150-3e56f706b8b5
 )
 
 require (
